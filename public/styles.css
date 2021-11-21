@@ -1,0 +1,64 @@
+body{
+    margin: auto 0;
+    padding: 10px;
+    background-image: url(/images/Fondo.jpeg);
+    background-size: cover;
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-size:  20px;
+    color: white;
+    align-items: flex-start;
+    margin: 40px;
+}
+
+.general {
+    font-size: 30px;
+    color: black;
+    margin: 40px;
+    margin-top: 120px;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    width: 260px;
+    height: 360px;
+}
+
+.travels{
+    font-size: 30px;
+    color: black;
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    margin:20px;
+
+}
+
+.photo{
+    align-items: center;
+    align-content: space-between;
+    margin:20px;
+    width: 480px;
+    height: 720px;
+}
